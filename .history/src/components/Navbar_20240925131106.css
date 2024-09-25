@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--clr-primary); /* Using your primary color */
+  color: var(--clr-white); /* Using white text color */
+  font-family: var(--font-family-bai); /* Using the Bai Jamjuree font */
+  transition: var(--transition-default); /* Applying your default transition */
+}
+
+.toggle-button {
+  background-color: var(--clr-pumpkin); /* Highlight with pumpkin color */
+  color: var(--clr-white);
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-default);
+}
+
+.toggle-button:hover {
+  background-color: var(--clr-scarlet); /* Change to scarlet on hover */
+}
+
+.navbar.light {
+  background-color: var(--clr-white); /* Light mode background */
+  color: var(--clr-black); /* Text color for light mode */
+}
+
+.navbar.light .toggle-button {
+  background-color: var(--clr-silver); /* Light button color in light mode */
+  color: var(--clr-black);
+}
+
+.navbar.light .toggle-button:hover {
+  background-color: var(--clr-scarlet-v1); /* Scarlet variant for hover */
+}
